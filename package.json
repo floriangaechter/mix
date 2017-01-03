@@ -1,7 +1,7 @@
 {
   "name": "mix",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple webpack bundler",
   "main": "webpack.config.js",
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -20,5 +20,5 @@
     "build": "PROD=true webpack --optimize-minimize"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
