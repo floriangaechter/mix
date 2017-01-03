@@ -9,6 +9,7 @@
     "babel-preset-es2015": "^6.18.0",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "globby": "^6.1.0",
     "node-sass": "^4.1.1",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
@@ -16,8 +17,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --progress --colors --watch",
-    "build": "PROD=true webpack --optimize-minimize"
+    "dev": "webpack --progress --colors --optimize-minimize --watch",
+    "build": "PROD=true webpack --progress --colors --optimize-minimize"
   },
   "author": "",
   "license": "MIT"

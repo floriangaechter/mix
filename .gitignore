@@ -8,6 +8,7 @@ Thumbs.db
 # Project
 node_modules/
 npm-debug.log
+build/*
 
 # allow
 !.gitkeep
